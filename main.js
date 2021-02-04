@@ -1,0 +1,28 @@
+var canvas=document.getElementById("myCanvas");
+var veryimportant=canvas.getContext("2d");
+veryimportant.beginPath();
+veryimportant.strokeStyle="blue";
+veryimportant.lineWidth=5;
+veryimportant.arc(225,200,60,0,360);
+veryimportant.stroke();
+veryimportant.beginPath();
+veryimportant.strokeStyle="black";
+veryimportant.lineWidth=5;
+veryimportant.arc(370,200,60,0,360);
+veryimportant.stroke();
+veryimportant.beginPath();
+veryimportant.strokeStyle="red";
+veryimportant.lineWidth=5;
+veryimportant.arc(490,200,60,0,360);
+veryimportant.stroke();
+veryimportant.beginPath();
+veryimportant.strokeStyle="yellow";
+veryimportant.lineWidth=5;
+veryimportant.arc(300,250,60,0,360);
+veryimportant.stroke();
+veryimportant.beginPath();
+veryimportant.strokeStyle="green";
+veryimportant.lineWidth=5;
+veryimportant.arc(430,260,60,0,360);
+veryimportant.stroke();
+
